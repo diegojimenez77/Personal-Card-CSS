@@ -1,0 +1,115 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 65.5%;
+    font-family: sans-serif;
+    background-color: rgb(10,10,10);
+}
+img {
+    width: 100px;
+}
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    border-radius: 3rem;
+    width: 40rem;
+    height: 56rem;
+    margin: 5rem auto;
+    background-color: rgb(21,21,24);
+    color:rgb(240,240,240);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.card img:nth-child(1) {
+    width: 100%;
+    height: 20rem;
+}
+.card img:nth-child(2){
+    position: relative;
+    top: -50px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+    width: 150px;
+    height: 160px;  
+}
+.card p.username {
+    margin-top: -2rem;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.card p.rol{
+    margin-top: 0.5rem;
+    font-size: 1.6rem;
+}
+.actions {
+    margin-top:5rem;
+    padding:2rem;
+    width: 100%;
+    height:4.5rem;
+    display:flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+.actions div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.influence {
+    border: 1px solid rgb(32, 32, 32);
+    margin-top: 1rem;
+    background-color: rgb(24, 24, 24);
+    height: 6.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.influence div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.influence div:nth-child(2) {
+    border-left: 1px solid rgb(32, 32, 32);
+}
+.influence div p:nth-child(1) {
+    font-weight: 800;
+    font-size: 1.7rem;
+}
+.follow {
+    width: 100%;
+    height: 3rem;
+    background-color:  rgb(32, 32, 32);
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+}
+.card button:focus-visible {
+    outline: none;
+}
+.actions div img.flag {
+    width:40px;
+    height: 35px;
+}
+.actions div img.git{
+    width:40px;
+    height: 35px;
+}
